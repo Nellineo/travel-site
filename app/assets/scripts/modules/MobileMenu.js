@@ -9,10 +9,13 @@ class MobileMenu {
 
     events() {
         this.menuIcon.click(this.toggleTheMenu);
+        console.log(this);
     }
 
     toggleTheMenu() {
+        console.log(this);
         this.menuContent.toggleClass("site-header__menu-content--is-visible");
+        
     }
 }
 
